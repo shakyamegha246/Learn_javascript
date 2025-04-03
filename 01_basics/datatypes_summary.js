@@ -15,3 +15,28 @@ const outsidetemp = null;
 let userEmail;
 
 const id = Symbol('1234')
+const anotherId = Symbol('1234');
+console.log(id === anotherId);
+
+const bigNumber = 234236347736363n; // bigInt is denoted by number ending with n
+console.log(typeof bigNumber);
+
+const heros = ["Megha", "Radha", "Ram"] // array
+let myObj = {
+    name: "Megha",
+    age: 22,
+}    //object
+console.log(heros);
+console.log(myObj);
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof myFunction);
+console.log(typeof myObj);
+
+
+
+
+
